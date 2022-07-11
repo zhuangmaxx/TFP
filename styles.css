@@ -48,14 +48,15 @@ html, body{
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .3);
     background-image: url("./images/banner.jpeg");
     background-position-x: center;
     background-position-y: 15%;
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 5px;
-    padding-top: 5px
+    padding-bottom: 0px;
+    padding-top: 3px;
+    font-size: 1em;
 }
 
 .site-name{
