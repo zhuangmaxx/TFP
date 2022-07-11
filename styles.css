@@ -1,6 +1,14 @@
+@font-face {
+    font-family: "League Gothic Italic";
+    src: url("./fonts/LeagueGothicItalic.woff") format("woff"),
+    url("./fonts/LeagueGothicItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic;
+}
+
 *{
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: "League Gothic Italic";
     color: gray;
 }
 
@@ -46,5 +54,16 @@ html, body{
     background-position-y: 15%;
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px
+}
+
+.site-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "League Gothic Italic";
+    font-weight: "normal";
+    font-style: italic;
+    color: white;
 }
