@@ -98,10 +98,10 @@ html, body{
 }
 
 .section-header{
-    /*TODO: Probably change these fonts later on maybe*/
+    /*TODO: Probably change these fonts later on maybe, thinking helvetica or georgia*/
     font-family: "Helvetica";
     font-weight: bold;
     font-style: normal;
     color: #333;
-    text-align:center;
+    font-size: 1em
 }
