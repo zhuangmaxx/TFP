@@ -22,6 +22,11 @@
     font-style: normal;
 }
 
+html{
+    background-color: black;
+}
+
+
 *{
     box-sizing: border-box;
     font-family: "Helvetica";
@@ -80,7 +85,7 @@ html, body{
 .site-name{
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 4.5em;
     font-family: "Times New Roman";
     font-weight: "normal";
     font-style: italic;
@@ -93,8 +98,9 @@ html, body{
 
 .container{
     max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1.5em;
+    /*margin: 0 auto;*/
+    margin: 0 0;
+    padding: 0 2em;
 }
 
 .section-header{
@@ -104,4 +110,14 @@ html, body{
     font-style: normal;
     color: #333;
     font-size: 1em
+}
+
+.project-page{
+    font-family: "EB Garamond";
+    font-weight: normal;
+    font-style: normal;
+    color: lightgray;
+    font-size: 2.2em;
+    overflow-wrap:break-word;
+    text-decoration: none;
 }
