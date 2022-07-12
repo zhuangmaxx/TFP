@@ -23,14 +23,14 @@
 }
 
 html{
-    background-color: rgba(10,10,10,.97);
+    background-color: rgba(10,10,10,.98);
 }
 
 
 *{
     box-sizing: border-box;
     font-family: "Helvetica";
-    color: gray;
+    color: lightgray;
 }
 
 html, body{
@@ -51,7 +51,7 @@ html, body{
     padding: .5em;
     color: white;
     text-decoration: none;
-    font-family: "Times New Roman";
+    font-family: "Helvetica";
     font-weight: bold;
 }
 
@@ -85,10 +85,10 @@ html, body{
 .site-name{
     text-align: center;
     margin: 0;
-    font-size: 4.5em;
-    font-family: "Times New Roman";
+    font-size: 4em;
+    font-family: "Helvetica";
     font-weight: "normal";
-    font-style: italic;
+    font-style: "normal";
     color: white;
 }
 
@@ -97,10 +97,10 @@ html, body{
 }
 
 .container{
-    max-width: 900px;
+    max-width: 1600px;
     /*margin: 0 auto;*/
     margin: 0 0;
-    padding: 0 2em;
+    padding: 0 3em;
 }
 
 .section-header{
@@ -108,16 +108,18 @@ html, body{
     font-family: "Helvetica";
     font-weight: bold;
     font-style: normal;
-    color: #333;
-    font-size: 1em
+    color: rgba(255, 255, 255, .3);
+    font-size: 1em;
+    line-height: .2em;
 }
 
-.project-page{
-    font-family: "EB Garamond";
+.aboutus-body{
+    font-family: "Georgia";
     font-weight: normal;
     font-style: normal;
-    color: lightgray;
-    font-size: 2.2em;
+    color: rgba(255, 255, 255, .90);
+    font-size: 3.4em;
     overflow-wrap:break-word;
     text-decoration: none;
+    line-height: 1;
 }
