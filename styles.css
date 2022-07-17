@@ -98,7 +98,14 @@ html, body{
 }
 
 .container{
-    max-width: 1600px;
+    max-width: 90em;
+    /*margin: 0 auto;*/
+    margin: 0 0;
+    padding: 0 3.5em;
+}
+
+.container-paragraph{
+    max-width: 50em;
     /*margin: 0 auto;*/
     margin: 0 0;
     padding: 0 3.5em;
@@ -109,11 +116,11 @@ html, body{
     font-family: "Helvetica";
     font-weight: bold;
     font-style: normal;
-    color: rgba(255, 255, 255, .3);
+    color: rgba(255, 255, 255, .5);
     font-size: 1em;
     line-height: .2em;
     margin-bottom: .5em;
-    margin-top: 4.5em;
+    margin-top: 5em;
 }
 
 .aboutus-body{
@@ -121,9 +128,15 @@ html, body{
     font-weight: normal;
     font-style: normal;
     color: rgba(255, 255, 255, .90);
-    font-size: 3.4em;
-    overflow-wrap:break-word;
+    font-size: 3.8em;
     text-decoration: none;
     line-height: 1.2em;
-    margin-bottom: 10em;
+    overflow-wrap: break-word;
+    word-break: break-all;
 }
+
+.aboutus-para{
+    font-weight: bold
+
+}
+
