@@ -80,6 +80,7 @@ html, body{
     padding-bottom: 0px;
     padding-top: 3px;
     font-size: 1em;
+    margin-bottom: 0em;
 }
 
 .site-name{
@@ -104,13 +105,15 @@ html, body{
 }
 
 .section-header{
-    /*TODO: Probably change these fonts later on maybe, thinking helvetica or georgia*/
+    /*TODO: Probably change these fonts later on maybe, thinking helvetica */
     font-family: "Helvetica";
     font-weight: bold;
     font-style: normal;
     color: rgba(255, 255, 255, .3);
     font-size: 1em;
     line-height: .2em;
+    margin-bottom: .5em;
+    margin-top: 4.5em;
 }
 
 .aboutus-body{
@@ -122,4 +125,5 @@ html, body{
     overflow-wrap:break-word;
     text-decoration: none;
     line-height: 1.2em;
+    margin-bottom: 10em;
 }
