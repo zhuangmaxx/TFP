@@ -84,6 +84,11 @@ html, body{
     margin-bottom: 0em;
 }
 
+.indexpic {
+    max-width: 100%;
+    height: auto;
+}
+
 .site-name{
     text-align: center;
     margin: 0;
