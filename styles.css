@@ -128,6 +128,10 @@ html, body{
     margin-top: 5em;
 }
 
+.marginplz{
+    margin-top: 100em;
+}
+
 .aboutus-body{
     font-family: "Georgia";
     font-weight: normal;
@@ -161,7 +165,7 @@ input[type=text] {
   border:0;
   box-shadow:0 0 15px 4px rgba(255,255,255,.3);
   border-radius:9px;
-  width: 7.5%;
+  width: 6.2em;
   font-family:inherit;
   font-size: inherit;
 
@@ -180,9 +184,17 @@ button {
     color:#fff;
     font-weight:600;
     border-radius:5px;
-    width:15%;
+    width:6.2em;
   
 
+    font-family:inherit;
+    font-size: inherit;
+  }
+
+  select {
+    width: 100%;
+    padding:10px;
+    border-radius:10px;
     font-family:inherit;
     font-size: inherit;
   }

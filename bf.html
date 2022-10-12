@@ -18,19 +18,7 @@
         </header>
 
         <section class = "content-section container-paragraph">
-            <h2 class="section-header">Body Fat Percentage Explained</h2>
-
-            <p class="aboutus-para">
-                The body fat percentage of a human or other living being is the total mass of fat divided by total body mass, multiplied by 100; body fat includes essential body fat and storage body fat. 
-            </p>
-
-            <p class="aboutus-para">
-                Body fat percentage  is important because someone else can be the same height and weight as you, but they might have more body fat and less muscle. This could lead to different health issues in them. 
-            </p>
-
-            <p class="aboutus-para">
-                The scale won’t tell you how much of your body is made up of fat and muscle mass. But assessing body fat percentage can help you find that. Healthier body composition is less fat and more muscle mass. Too much body fat can lead to risks like cancer, diabetes, heart disease, and other health problems.
-            </p>
+            
 
 
         <div id=outer>
@@ -42,13 +30,13 @@
                             <col class=w60>
                             <tr>
                                 <td class="aboutus-para">Measuring System<td>
-                                    <select id=msf onchange=msystem();>
+                                    <select style="color:black;" id=msf onchange=msystem();>
                                         <option value=metric>Metric (cm)
                                         <option value=us>US (inches)     
                                     </select>
                             <tr>
                                 <td class="aboutus-para">Sex<td>
-                                    <select id=sf>
+                                    <select style="color:black;" id=sf>
                                         <option value=m>Male
                                         <option value=f>Female
                                     </select>
@@ -56,42 +44,65 @@
                                 <td class="aboutus-para">Height 
                                     <span id=thf>(cm)</span>
                                 <td>
-                                <input id=hf>
+                                <input type="text" style="color:black" id=hf>
                             <tr>
                                 <td class="aboutus-para">Neck Girth
                                     <span id=tneck> (cm)</span>
                                     <td>
-                                        <input id=neck>
+                                        <input type="text" style="color:black" id=neck>
                             <tr>
                                 <td class="aboutus-para">Waist 
                                     <span id=twaist>(cm)</span>
                                 <td>
-                                <input id=waist>
+                                <input type="text" style="color:black" id=waist>
                             <tr>
                                 <td class="aboutus-para">Hips 
                                     <span id=thips>(cm)</span>    
                                 <td>
-                                    <input id=hips>
+                                    <input type="text" style="color:black" id=hips>
                             <tr>
                                 <td>
-                                    <button type=reset>Reset</button>
+                                    <button style="color:black;" type=reset>Reset</button>
                                 <td>
-                                    <button type=button onclick='bfat();'>Submit</button>
+                                    <button style="color:black;" type=button onclick='bfat();'>Submit</button>
                             <tr>
                                 <td class="aboutus-para">Your Body Fat
                                 <td>
-                                    <input id=bf class=op>
+                                    <input placeholder="BF%" type="text" style="color:black" id=bf class=op>
                             <tr>
                                 <td class="aboutus-para">Body Fat Category<td>
-                                <input id=nbf class=op>
+                                <input type="text" style="color:black" id=nbf class="op">
                             <tr>
-                                <td colspan=2 class='ac b aboutus-para' >US Navy Formula
-
                         </table>
                     </form>
                 </div>
             </div>
             <script src="bf.js"></script>
+            
+
+            <div class=floatplz>
+
+                <h2 class="section-header">Body Fat Percentage Explained</h2>
+
+                <p class="aboutus-para">
+                    The body fat percentage of a human or other living being is the total mass of fat divided by total body mass, multiplied by 100.                </p>
+
+                <p class="aboutus-para">
+                    Body fat percentage  is important because someone else can be the same height and weight as you, but they might have more body fat and less muscle. This could lead to different health issues in them. 
+                </p>
+
+                <p class="aboutus-para">
+                    The scale won’t tell you how much of your body is made up of fat and muscle mass. But assessing body fat percentage can help you find that. Healthier body composition is less fat and more muscle mass. Too much body fat can lead to risks like cancer, diabetes, heart disease, and other health problems.
+                </p>
+
+                <p class="aboutus-para homepage-bottom">
+                    This calculator uses the US Navy Formula to calculate a rough body fat percentage.
+                </p>
+            </div>
+        </div>
+
+
+
         </section>
     </body>
 </html>
