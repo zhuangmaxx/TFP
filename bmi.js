@@ -22,3 +22,4 @@ calculateButton.addEventListener("click", ()=>{
         statement.innerText = "Your BMI falls within the obese range";
     }
 });
+//Source from Jima Victor
