@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Fitness Project | BMI</title>
+        <meta name="description" content="This is a fitness project">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="workout.html">WORKOUT</a></li>
+                    <li><a href="aboutus.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="site-name">THE FITNESS PROJECT</h1>
+        </header>
+
+
+        <body>
+            <section class = "content-section container-paragraph">
+                
+
+
+                <div class="calculator-container">
+                    <h2 class="section-header">BMI Calculator</h2>
+                    <p class="aboutus-para">Height in meters:</p>
+                    <input class="height-input-field" placeholder="m" type="text" style="color:black">
+                    <p class="aboutus-para">Weight in kilograms:</p>
+                    <input class="weight-input-field" placeholder="kg" type="text" style="color:black;"><br>
+                    <button class="calculate bmical" style="color:black;"> Calculate</button>
+                </div>
+                <h3 class="result"></h3>
+                <p class="result-statement"></p>
+                <script src="bmi.js"></script>
+
+
+                <h2 class="section-header">BMI Explained</h2>
+                <p class="aboutus-para">
+                    BMI is a useful measure of overweight and obesity. It is calculated from your height and weight. BMI is an estimate of body fat and a good gauge of your risk for diseases that can occur with more body fat. The higher your BMI, the higher your risk for certain diseases such as heart disease, high blood pressure, type 2 diabetes, gallstones, breathing problems, and certain cancers.
+                </p>
+
+                <p class="aboutus-para">
+                    Although BMI can be used for most men and women, it does have some limits:
+                </p>
+                <p class="aboutus-para tabbed">
+                    It may overestimate body fat in athletes and others who have a muscular build.
+                    <br>
+                    It may underestimate body fat in older persons and others who have lost muscle.
+                </p>
+                
+                <p class="aboutus-para">
+                    Therefore it is still best to understand that BMI is a tool that can be used among others to determine health, it is not the be all and end all of health measurements.
+                </p>
+                <!--
+                <p class="aboutus-para"></p>
+                <p class="aboutus-para"></p>
+                -->
+            </section>
+        <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+        
+
+<!-- Code inject
